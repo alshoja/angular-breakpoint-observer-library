@@ -1,0 +1,1 @@
+# angular-breakpoint-observer-library
