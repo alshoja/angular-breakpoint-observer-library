@@ -1,3 +1,4 @@
+
 # Angular-breakpoint-observer
 Let you observe your current screen size dynamicaly as observable in any of the components using the service
 
@@ -9,11 +10,13 @@ Let you observe your current screen size dynamicaly as observable in any of the 
 
 ### Install via npm 
 ```sh
-npm install --save alshoja/break-point-observer
+npm install @alshoja/break-point-observer
 ```
 
 ### Import the module
 ```javascript
+import { BreakPointObserverModule } from '@alshoja/break-point-observer';
+............................................................................
 @NgModule({
   declarations: [
     AppComponent
@@ -38,7 +41,7 @@ npm install --save alshoja/break-point-observer
 ### Subscribe to the screen size
 
 ```javascript
-import { BreakPointObserverService } from '@alshoja/break-point-observer.service';
+import { BreakPointObserverService } from '@alshoja/break-point-observer';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
