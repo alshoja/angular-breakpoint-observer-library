@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "buildlib": "ng build breakPointObserver",
+    "buildlib": "ng build breakPointObserver --prod",
     "npm_pack": "cd dist/break-point-observer && npm pack",
     "package": "npm run buildlib && npm run npm_pack"
   },

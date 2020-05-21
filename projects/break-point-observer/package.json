@@ -1,6 +1,26 @@
 {
-  "name": "break-point-observer",
-  "version": "0.0.1",
+  "name": "@alshoja/break-point-observer",
+  "version": "1.0.0",
+  "description": "Let you observe your current screen size dynamicaly as observable in any of the components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alshoja/angular-breakpoint-observer-library.git"
+  },
+  "author": {
+    "name": "Alshoja m Ikbal",
+    "email": "alshoja@gmail.com"
+  },
+  "keywords": [
+    "angular",
+    "angular 9",
+    "media query observer",
+    "screen size observer",
+    "breakpoint observer"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alshoja/angular-breakpoint-observer-library/issues"
+  },
   "peerDependencies": {
     "@angular/common": "^9.1.7",
     "@angular/core": "^9.1.7",
