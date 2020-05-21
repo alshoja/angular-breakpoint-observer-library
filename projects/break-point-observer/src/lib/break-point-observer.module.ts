@@ -1,15 +1,10 @@
 import { BreakPointObserverService } from './break-point-observer.service';
-import { NgModule } from '@angular/core';
+import { NgModule, ModuleWithProviders, InjectionToken } from '@angular/core';
 import { BreakPointObserverComponent } from './break-point-observer.component';
+import { LibConfig } from './lib.config';
+import { LibConfigService } from './lib.config.service';
 
-import { InjectionToken } from '@angular/core';
 
-export interface LibConfig {
-  size: string;
-  value: string;
-}
-
-export const LibConfigService = new InjectionToken<LibConfig>('LibConfig');
 @NgModule({
   declarations: [BreakPointObserverComponent],
   imports: [
@@ -18,7 +13,7 @@ export const LibConfigService = new InjectionToken<LibConfig>('LibConfig');
   exports: [BreakPointObserverComponent]
 })
 export class BreakPointObserverModule {
-  static forRoot(config: LibConfig): BreakPointObserverModule {
+  static forRoot(config: LibConfig): ModuleWithProviders {
     return {
       ngModule: BreakPointObserverModule,
       providers: [

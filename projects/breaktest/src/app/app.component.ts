@@ -8,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'breaktest';
-  ngOnInit() {
+  constructor(private observerService: BreakPointObserverService) {
 
+  }
+  ngOnInit() {
+    this.observerService.size.subscribe(res => {
+      console.log('res from lib', res);
+    });
   }
 }
