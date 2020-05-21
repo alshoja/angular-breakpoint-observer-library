@@ -9,7 +9,7 @@ Let you observe your current screen size dynamicaly as observable in any of the 
 
 ### Install via npm 
 ```sh
-npm install --save alshoja/break-point-observer.service
+npm install --save alshoja/break-point-observer
 ```
 
 ### Import the module
