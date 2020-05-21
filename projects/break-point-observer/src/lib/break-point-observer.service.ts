@@ -4,13 +4,6 @@ import { startWith, map, distinctUntilChanged, shareReplay } from 'rxjs/operator
 import { LibConfig } from './lib.config';
 import { LibConfigService } from './lib.config.service';
 
-// const MEDIA_QUERY: Map<string, string> = new Map([
-//   ['xl', '(min-width: 1200px)'],
-//   ['lg', '(min-width: 992px)'],
-//   ['md', '(min-width: 768px)'],
-//   ['sm', '(min-width: 576px)'],
-//   ['xs', '(min-width: 0px)'],
-// ]);
 
 @Injectable({
   providedIn: 'root'
