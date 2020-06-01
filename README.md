@@ -2,9 +2,9 @@
 # Angular-breakpoint-observer
 Let you observe your current screen size dynamicaly as observable in any of the components using the service
 
-* Can be used instead of media query in Angular- 6,7,8,9
+* Can be used instead of media query in Angular- 9+
 
-* Demo in [Stack Blitz](https://owaingnqw.github.stackblitz.io)
+* Demo in [Stack Blitz](https://stackblitz.com/github/alshoja/break-point-observer)
 
 ## Getting started
 
