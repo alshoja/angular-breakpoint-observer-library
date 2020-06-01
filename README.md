@@ -1,7 +1,6 @@
-
+[![npm version](https://badge.fury.io/js/%40angular%2Fcore.svg)](https://www.npmjs.com/package/@alshoja/break-point-observer)
 # Angular-breakpoint-observer
 Let you observe your current screen size dynamicaly as observable in any of the components using the service
-https://badge.fury.io/js/%40angular%2Fcore.svg
 
 * Can be used instead of media query in Angular- 9+
 
