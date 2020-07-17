@@ -12,7 +12,7 @@
     "npm_pack": "cd dist/break-point-observer && npm pack",
     "package": "npm run buildlib && npm run npm_pack"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "~9.1.7",
     "@angular/common": "~9.1.7",
